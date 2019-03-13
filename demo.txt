@@ -1,4 +1,4 @@
-Git Demo Note
+Git Demo Notes
 
 *Post git download info make sure people dl git and have github login
 
