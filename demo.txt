@@ -1,0 +1,62 @@
+Git Demo Note
+
+*Post git download info make sure people dl git and have github login
+
+
+	explain git and git hub and version control
+open git bash
+simple command 
+		'git --version'
+config user
+		'git config --list'
+		'git config --global user.name "Tony Palomo"'
+		'git config --global user.email "t.m.palomo@gmail.com"'
+		
+config text editor check && change to vim		
+		'git config core.editor'
+		'git config --global core.editor "vim"'
+		'git config --list'
+
+explain the --global scope tag
+
+	create new folder
+
+enter directory to that new folder and check
+		
+		'cd /u/desktop/Demo'
+		'pwd'
+
+
+create files commands
+		'touch test.txt'
+		'touch demo.txt'
+add	
+
+	 in file explorer/ go view>options>view / show hidden folders && *show file etensions
+
+intitialize git
+		'git init'
+explain git repository
+fill files
+		'git add demo.txt'
+		'git add test.txt'
+
+edit a file
+		'git add demo.txt'
+		
+
+		'git rm --cached *.txt'
+		'git add .'
+
+git commit
+edit with 	'i' 
+		'<esc>:wq'
+you are commited to local repository	
+
+//		'touch .gitignore'
+//		'touch logFile.txt'
+//fill logFile.txt
+//	add 'logFile.txt' to .gitignore 
+		
+//		'git add .'
+status check
